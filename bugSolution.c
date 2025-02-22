@@ -1,0 +1,1 @@
+int main() { int x = 10; int *ptr = &x; if (ptr != NULL) { *ptr = 20; } else { // Handle the case where the pointer is null.  fprintf(stderr, "Error: pointer is NULL\n"); return 1; } printf("%d\n", x); return 0; }
